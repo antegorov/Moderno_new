@@ -13,14 +13,14 @@ $(function() {
   
   
 
-  // $(".rate-star").rateYo({
-  //   rating: 4,
-  //   starWidth: "12px",
-  //   readOnly: true
-  // });
+  $(".rate-star").rateYo({
+    rating: 4,
+    starWidth: "12px",
+    readOnly: true
+  });
 
 
 
 
-  // var mixer = mixitup('.product__inner-box');
+  var mixer = mixitup('.product__inner-box');
 });
