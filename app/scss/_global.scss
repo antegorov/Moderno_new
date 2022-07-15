@@ -26,6 +26,7 @@ body{
   font-weight: 400;
   line-height: 24px;
   color: $text;
+  overflow-x: hidden;
 }
 
 .container{
@@ -59,4 +60,30 @@ body{
 .rate-star{
   display: inline-block;
   margin-right: 13px;
+}
+
+.angle-right{
+  position: relative;
+  padding-left: 15px;
+  &::before{
+    position: absolute;
+    left: 0;
+    content: "\f105";
+    font-family: 'icomoon';
+    color: $green;
+    font-size: 14px;
+  }
+}
+
+.wrapper{
+  display: grid;
+  height: 100vh;
+}
+
+.content{
+  flex: 1 0 auto;
+}
+
+.page-content {
+  background-color: #f4f6f5;
 }
